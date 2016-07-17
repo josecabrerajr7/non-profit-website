@@ -62,10 +62,13 @@ body, * {
     padding-left: 0px;
 }
 #searchField {
-	top: 0;
+	top: 5px;
 	right: 35px;
 	display:none;
     position:absolute;
+    border: none;
+    background-color: #222;
+    color: #ffffff;
 }
 #search {
 	height: auto;
@@ -417,6 +420,9 @@ body, * {
 	}
 }
 @media(min-width:768px){
+	#searchField {
+		width: 400px;
+	}
 	.subfooter {
 		display: block;
 	}
