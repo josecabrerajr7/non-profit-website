@@ -1,0 +1,84 @@
+.white {
+	color: #ffffff;
+}
+.gray {
+	color: #8f8e8c;
+}
+.light-white {
+	color: #efeeea;
+}
+.light-white:hover {
+    color: #ac99b1;
+}
+.purple {
+    color: #4a0059;
+}
+
+.purple_color {
+    color: #4a0059;
+    width: 75%;
+    border: 2px solid #4a0059;
+    margin: 25px auto 10px auto;
+    display: block;
+}
+.purple_color:hover,
+.purple_color:active:hover,
+.purple_color.active:hover,
+.purple_color:active:focus,
+.purple_color.active:focus,
+.purple_color:active.focus,
+.purple_color.active.focus,
+.purple_color:focus,
+.purple_color.focus,
+.purple_color:active,
+.purple_color.active:hover {
+    color: #fff;
+    background-color: #4a0059;
+    border: 2px solid #4a0059;
+}
+.btn-pink {
+    width: 179.92px;
+    height: 60px;
+    margin-bottom: 5px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    color: #ffffff;
+    background-color: #ed027e;
+    border: none;
+}
+.btn:active,
+.btn.active {
+    box-shadow: none;
+}
+
+.btn-pink:hover,
+.btn-pink:active:hover,
+.btn-pink.active:hover,
+.btn-pink:active:focus,
+.btn-pink.active:focus,
+.btn-pink:active.focus,
+.btn-pink.active.focus,
+.btn-pink:focus,
+.btn-pink.focus,
+.btn-pink:active,
+.btn-pink.active:hover {
+    color: #ffffff;
+    background-color: #c71585;
+}
+@font-face {
+    font-family: Montserrat-Bold;
+    src: url(../fonts/Montserrat-Bold.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Montserrat-Light;
+    src: url(../fonts/Montserrat-Light.otf);
+    font-weight: light;
+}
+.headings {
+	font-family: Montserrat-bold, Arial, sans-serif;
+}
+.plain-text {
+	font-family: Montserrat-light, Arial, sans-serif;
+}

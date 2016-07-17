@@ -1,0 +1,32 @@
+@media(min-width:768px) {
+    .navbar-inverse .navbar-nav > .open > a, 
+    .navbar-inverse .navbar-nav > .open > a:hover, 
+    .navbar-inverse .navbar-nav > .open > a:focus {
+        background-color: #222;
+        color: #efeeea;
+    }
+    .nav > li.dropdown:hover {
+    }
+    .nav > li.dropdown:hover .dropdown-menu {
+        background-color: #222;
+        display: table;
+    }
+    .dropdown-menu {
+        border: none;
+        background-color: #222;
+    }
+    .dropdown-menu >li {
+        display: table;
+    }
+    .dropdown-menu >li > a{
+        color: #efeeea;
+    }
+    .dropdown-menu >li > a:hover {
+        color: #ac99b1;
+        background-color: #222;
+    }
+    .dropdown-menu >li > a:focus {
+        color: #ac99b1;
+        background-color: #222;
+    }
+}
